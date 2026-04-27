@@ -1,4 +1,4 @@
-# Diploma-research
+# Analysis of Gas Leak Detection Using Thermography and Deep Learning
 Information encoded in the filename
 FLIRXXXX_<background>_<surface>_<leak>_<height>_<phi>_<theta>.png
 
