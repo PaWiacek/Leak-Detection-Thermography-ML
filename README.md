@@ -24,8 +24,8 @@ Each pair consists of one tube with a reflective surface finish and one with a m
 | Matte       | 0.17  |
 
 <img width="320" height="240" alt="pipe-surface-macro-rot" src="https://github.com/user-attachments/assets/757089a4-9ad3-498d-a06c-d78bc439939e" />
-Fig. 2: *Photography of pipes with leakage, top: matte, bottom: reflective surface finish*
 
+Fig. 2: *Photography of pipes with leakage, top: matte, bottom: reflective surface finish*
 
 The gas was supplied from the cylinder through the regulator under the constant pressure of 0.3 MPa, and then flows through a 0.25 inch pneumatic hose.
 
