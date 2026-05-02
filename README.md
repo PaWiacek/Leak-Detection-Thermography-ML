@@ -6,6 +6,8 @@
 This project focuses on gas safety classification using thermal camera-derived data and convolutional neural networks (CNN). Leak and no-leak classes were distinguished based on experimental measurements, and the influence of reflective tube surface and thermal noise in the backround was assessed.
 
 ## Objective
+Although several gas leak detection technologies are already available, including optical gas imaging (OGI) cameras, catalytic combustible gas sensors (CGS), ultrasonic sensors, and fiber-optic sensors, they often face limitations in terms of detection speed, accuracy, or robustness to environmental conditions. Therefore, there is still a need to develop fast and reliable detection methods.
+
 This work develops a methodology for detecting gas leaks from thermal images using artificial neural networks. It identifies a suitable network architecture and evaluates the impact of thermal noise on classification performance.
 
 ## Methodology
@@ -16,7 +18,7 @@ Fig. 1: *Simplified experimental scheme. The area enclosed by the dashed frame i
 
 <img width="320" height="213" alt="experimental-device" src="https://github.com/user-attachments/assets/61573a62-f7a7-4094-9f09-46d35d4a5583" />
 
-Fig. 2: *Experimental device with test tube and 3D-printed elements*
+Fig. 2: *Experimental device with test tube and 3D-printed elements. Both cylinder and regulator are not visible.*
 
 
 To simulate gas leakages, a test bench including the main components: an air cylinder, a regulator, a valve, and a test tube was constructed. Four SUS304 steel test tubes were used in the experiments:
@@ -34,10 +36,10 @@ Fig. 3: *Photography of pipes with leakage, top: matte, bottom: reflective surfa
 
 The gas was supplied from the cylinder through the regulator under the constant pressure of 0.3 MPa, and then flows through a 0.25 inch pneumatic hose. Each test tube was connected using Swagelock fittings to the rest of installation.
 
-The primary measurement device of the setup was a FLIR T630sc thermal camera, with selected specification parameters and its values listed below:
+The primary measurement device of the setup was a FLIR T630sc thermal camera, with essential specification parameters and its values listed below:
 
-| Parameter                  | Value                          |
-|----------------------------|--------------------------------|
+| Parameter                  | Value                         |
+|----------------------------|-------------------------------|
 | Thermal resolution         | 640 × 480 px                  |
 | Spectral range             | 7.5 – 14 µm                   |
 | Thermal sensitivity (NETD) | < 30 mK                       |
@@ -47,8 +49,9 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 
 ## Dataset
 number of samples (e.g., ?? images, 2 classes)
-image data augmentation
 variability (angle, background, height)
+image data augmentation
+
 the full dataset is not in the repository
 ## Results
 ## Limitations
