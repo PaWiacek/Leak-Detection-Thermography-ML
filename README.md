@@ -14,6 +14,7 @@ Simplified experimental scheme. The area enclosed by the dashed frame indicates 
 To simulate gas leakages, a test bench including the main components: an air cylinder, a regulator, a valve, and a test tube was constructed. Four SUS304 steel test tubes were used in the experiments:
 two with a drilled hole (leakage) and two airtight (reference samples).
 Each pair consists of one tube with a reflective surface finish and one with a matte surface finish, characterized by different emissivities ϵ, measured experimentally:
+
 | Sample   | Emmisivity value (averaged) | 
 |-------------|-------------|
 | Reflective  | 0.31  |
