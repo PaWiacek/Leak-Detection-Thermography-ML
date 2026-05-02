@@ -5,6 +5,13 @@
 ## Overview
 This project focuses on gas safety classification using thermal camera-derived data and convolutional neural networks (CNN). Leak and no-leak classes were distinguished based on experimental measurements, and the influence of reflective tube surface and thermal noise in the backround was assessed.
 
+## Key Results
+
+- Self-collected experimental dataset
+- Accuracy: 65% on test subset and 69% on validation subset
+- Robustness to background noise evaluated
+- Best model selected via Bayesian optimization
+
 ## Objective
 Although several gas leak detection technologies are already available, including optical gas imaging (OGI) cameras, catalytic combustible gas sensors (CGS), ultrasonic sensors, and fiber-optic sensors, they often face limitations in terms of detection speed, accuracy, or robustness to environmental conditions. Therefore, there is still a need to develop fast and reliable detection methods.
 
