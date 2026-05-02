@@ -68,7 +68,7 @@ Fig. 6: *θ angle determination; top view.*
 - The full dataset is not included in the repository
 
 ## Results
-## Limitations
-## Future Work
+<!-- ## Limitations -->
+<!-- ## Future Work -->
 ## Usage
-## Project Structure
+<!-- ## Project Structure -->
