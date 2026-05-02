@@ -47,6 +47,18 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 ## Dataset
 To gather a diverse dataset for the CNN, thermograms were acquired for different camera heights z, sample orientations φ and camera viewing angles θ, ensuring that individual images differed in their geometric configuration and reducing the risk of data leakage during subsequent machine learning (ML) stage.
 
+<img width="320" height="227" alt="z_determin" src="https://github.com/user-attachments/assets/637b5295-ec59-476d-a277-a9761c75c6b6" />
+
+Fig. 4: *Tripod height z determination; side view.*
+
+<img width="320" height="117" alt="phi_determin-crop-1" src="https://github.com/user-attachments/assets/1f2bcb8d-199a-408f-b6e6-6121acbcfdae" />
+
+Fig. 5: *φ angle (tube orientation) determination; front view.*
+
+<img width="320" height="227" alt="theta_determin" src="https://github.com/user-attachments/assets/5ead940d-6fa5-472d-830c-0c0a818fef5e" />
+
+Fig. 6: *θ angle determination; top view.*
+
 - Number of samples: 360 unique images split across 3 subsets:
   - train (216 images)
   - test (72 images)
