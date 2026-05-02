@@ -16,7 +16,7 @@ Fig. 1: *Simplified experimental scheme. The area enclosed by the dashed frame i
 
 To simulate gas leakages, a test bench including the main components: an air cylinder, a regulator, a valve, and a test tube was constructed. Four SUS304 steel test tubes were used in the experiments:
 two with a drilled hole (leakage) and two airtight (reference samples).
-Each pair consists of one tube with a reflective surface finish and one with a matte surface finish, characterized by different emissivities ϵ, measured experimentally:
+Each pair consisted of one tube with a reflective surface finish and one with a matte surface finish, characterized by different emissivities ϵ, measured experimentally:
 
 | Sample   | Emmisivity value (averaged) | 
 |-------------|-------------|
@@ -27,7 +27,18 @@ Each pair consists of one tube with a reflective surface finish and one with a m
 
 Fig. 2: *Photography of pipes with leakage, top: matte, bottom: reflective surface finish*
 
-The gas was supplied from the cylinder through the regulator under the constant pressure of 0.3 MPa, and then flows through a 0.25 inch pneumatic hose.
+The gas was supplied from the cylinder through the regulator under the constant pressure of 0.3 MPa, and then flows through a 0.25 inch pneumatic hose. Each test tube was connected using Swagelock fittings to the rest of installation.
+
+The primary measurement device of the setup was a FLIR T630sc thermal camera, with selected specification parameters and its values listed below:
+
+| Parameter                  | Value                          |
+|----------------------------|--------------------------------|
+| Thermal resolution         | 640 × 480 px                  |
+| Spectral range             | 7.5 – 14 µm                   |
+| Thermal sensitivity (NETD) | < 30 mK                       |
+| Accuracy                   | ±2 °C or 2% at 25 °C          |
+| Lens focal length          | 24.6 mm                       |
+| Detector type              | uncooled microbolometer       |
 
 ## Dataset
 number of samples (e.g., ?? images, 2 classes)
