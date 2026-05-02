@@ -44,6 +44,10 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 | Accuracy                   | ±2 °C or 2% at 25 °C          |
 | Lens focal length          | 24.6 mm                       |
 
+## Neural network architecture
+<img width="711" height="200" alt="net_layers" src="https://github.com/user-attachments/assets/4c42c51f-6ffe-48c4-a023-41561583bc65" />
+
+
 ## Dataset
 To gather a diverse dataset for the CNN, thermograms were acquired for different camera heights z, sample orientations φ and camera viewing angles θ, ensuring that individual images differed in their geometric configuration and reducing the risk of data leakage during subsequent machine learning (ML) stage.
 
