@@ -67,7 +67,13 @@ Fig. 6: *θ angle determination; top view.*
   - train (216 images)
   - test (72 images)
   - validation(72 images)
-- variable parameters (angle, background, height)
+- variable parameters:
+  - tripod angle θ
+  - sample (tube) angle φ
+  - camera height z
+- controlled factors evaluated for their impact on accuracy:
+  - surface emmisivity (ϵ 0.17 and ϵ 0.31)
+  - background type (laboratory/screen)
 - Training image data augmentation: from original 360 samples to 412 in total
 - The full dataset is not included in the repository. Further information is available in the README file in the dataset_samples directory.
 
