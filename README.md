@@ -77,13 +77,14 @@ Fig. 7: *Accuracy comparison for each subset*
 
 Fig. 8: *Confusion matrix*
 
-<img width="320" height="270" alt="missmatched_images" src="https://github.com/user-attachments/assets/8397d8e3-04fc-48b8-9678-94256e5fa97a" />
+<img width="320" height="230" alt="mismatched_images" src="https://github.com/user-attachments/assets/e7d104cc-0a56-4870-b312-582f6ec974f8" />
 
-Fig. 9: *Missmatched images*
+Fig. 9: *Mismatched images by sample type*
 
 
 <!-- ## Limitations -->
 
 <!-- ## Future Work -->
 ## Usage
+
 <!-- ## Project Structure -->
