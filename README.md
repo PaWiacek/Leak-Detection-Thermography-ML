@@ -14,6 +14,11 @@ This work develops a methodology for detecting gas leaks from thermal images usi
 
 Fig. 1: *Simplified experimental scheme. The area enclosed by the dashed frame indicates the camera’s ROI (region of interest).*
 
+<img width="320" height="213" alt="experimental-device" src="https://github.com/user-attachments/assets/61573a62-f7a7-4094-9f09-46d35d4a5583" />
+
+Fig. 2: *Experimental device with test tube and 3D-printed elements*
+
+
 To simulate gas leakages, a test bench including the main components: an air cylinder, a regulator, a valve, and a test tube was constructed. Four SUS304 steel test tubes were used in the experiments:
 two with a drilled hole (leakage) and two airtight (reference samples).
 Each pair consisted of one tube with a reflective surface finish and one with a matte surface finish, characterized by different emissivities ϵ, measured experimentally:
@@ -25,7 +30,7 @@ Each pair consisted of one tube with a reflective surface finish and one with a 
 
 <img width="320" height="240" alt="pipe-surface-macro-rot" src="https://github.com/user-attachments/assets/757089a4-9ad3-498d-a06c-d78bc439939e" />
 
-Fig. 2: *Photography of pipes with leakage, top: matte, bottom: reflective surface finish*
+Fig. 3: *Photography of pipes with leakage, top: matte, bottom: reflective surface finish*
 
 The gas was supplied from the cylinder through the regulator under the constant pressure of 0.3 MPa, and then flows through a 0.25 inch pneumatic hose. Each test tube was connected using Swagelock fittings to the rest of installation.
 
