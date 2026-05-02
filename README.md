@@ -68,7 +68,15 @@ Fig. 6: *θ angle determination; top view.*
 - The full dataset is not included in the repository. Further information is available in the README file in the dataset_samples directory.
 
 ## Results
-<!-- ## Limitations -->
+
+<img width="320" height="225" alt="acc-comp-largeNet" src="https://github.com/user-attachments/assets/38d99f57-b8be-43ae-83d9-9788ca9935f9" />
+
+<img width="320" height="258" alt="confMat-largeNet" src="https://github.com/user-attachments/assets/c372689c-7e81-4541-86e2-c4fbc2bc5165" />
+
+<img width="320" height="270" alt="missmatched_images" src="https://github.com/user-attachments/assets/8397d8e3-04fc-48b8-9678-94256e5fa97a" />
+
+<!-- ## Limitations -->!
+
 <!-- ## Future Work -->
 ## Usage
 <!-- ## Project Structure -->
