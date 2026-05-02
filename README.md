@@ -47,23 +47,14 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 ## Dataset
 To gather a diverse dataset for the CNN, thermograms were acquired for different camera heights z, sample orientations φ and camera viewing angles θ, ensuring that individual images differed in their geometric configuration and reducing the risk of data leakage during subsequent machine learning (ML) stage.
 
-- Number of samples: 360 unique images split across 3 subsets: train (216 images), test (72 images), validation(72 images), and further into 2 classes (leak/no leak)
-
-train/ (216 images total)
-|-- leak/
-`-- noleak/
-val/ (72 images total)
-|-- leak/
-`-- noleak/
-test/ (72 images total)
-|-- leak/
-`-- noleak/
-
-- variability (angle, background, height)
+- Number of samples: 360 unique images split across 3 subsets:
+  - train (216 images)
+  - test (72 images)
+  - validation(72 images)
+- variable parameters (angle, background, height)
 - Training image data augmentation: from original 360 samples to 412 in total
+- The full dataset is not included in the repository
 
-
-the full dataset is not in the repository
 ## Results
 ## Limitations
 ## Future Work
