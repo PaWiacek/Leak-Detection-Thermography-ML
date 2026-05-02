@@ -9,7 +9,10 @@ This project focuses on gas safety classification using thermal camera-derived d
 This work develops a methodology for detecting gas leaks from thermal images using artificial neural networks. It identifies a suitable network architecture and evaluates the impact of thermal noise on classification performance.
 
 ## Methodology
-<img width="480" height="354" alt="pneumatic-scheme-25" src="https://github.com/user-attachments/assets/5bc0f03e-7339-4ac0-9172-5519938c3129" />
+
+<img width="320" height="236" alt="pneumatic-scheme-26" src="https://github.com/user-attachments/assets/a46ca354-5a07-405c-b88e-aabce69f7bc3" />
+
+
 Simplified experimental scheme. The area enclosed by the dashed frame indicates the camera’s ROI (region of interest).
 To simulate gas leakages, a test bench including the main components: an air cylinder, a regulator, a valve, and a test tube was constructed. Four SUS304 steel test tubes were used in the experiments:
 two with a drilled hole (leakage) and two airtight (reference samples).
