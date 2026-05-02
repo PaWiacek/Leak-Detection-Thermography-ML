@@ -41,11 +41,9 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 | Parameter                  | Value                         |
 |----------------------------|-------------------------------|
 | Thermal resolution         | 640 × 480 px                  |
-| Spectral range             | 7.5 – 14 µm                   |
 | Thermal sensitivity (NETD) | < 30 mK                       |
 | Accuracy                   | ±2 °C or 2% at 25 °C          |
 | Lens focal length          | 24.6 mm                       |
-| Detector type              | uncooled microbolometer       |
 
 ## Dataset
 number of samples (e.g., ?? images, 2 classes)
