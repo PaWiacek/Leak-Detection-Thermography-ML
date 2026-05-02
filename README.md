@@ -99,20 +99,25 @@ Fig. 9: *Mismatched images by sample type*
 ### HPC (Slurm, Bayesian Optimization)
 Experiments can be run on an HPC cluster using Slurm scripts provided in the hpc/ directory.
 
-1. Submit the job:
+Submit the job:
 
+```bash
 sbatch hpc/run_experiment_complex_bn_fc.sh
+
 The script:
-- launches run_main_optimization.m with predefined settings
+- launches `run_main_optimization.m` with predefined settings (such as time and allocated resources)
 - performs Bayesian optimization of hyperparameters (e.g., filter size, number of filters, dropout)
-- calls the objective function (cnnObjectiveFcn) for training and evaluation
+- calls the objective function `cnnObjectiveFcn.m` for training and evaluation
+- loads the network architecture from `createCNN.m`
 - saves the model/results if improved performance is achieved
 
 <!-- The objective function (`cnnObjectiveFcn`) trains the network defined in `createCNN` and returns validation metrics used by the optimizer. -->
 
 ### Local (MATLAB)
-1. Open MATLAB
+1. Open MATLAB in the `src/` directory
 2. Run:
    ```matlab
-   main.m
+   CNN_large.m
+3. Evaluates the performance of the pre-trained network without retraining
+
 <!-- ## Project Structure -->
