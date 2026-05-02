@@ -103,6 +103,7 @@ Submit the job:
 
 ```bash
 sbatch hpc/run_experiment_complex_bn_fc.sh
+```
 
 The script:
 - launches `run_main_optimization.m` with predefined settings (such as time and allocated resources)
@@ -118,6 +119,7 @@ The script:
 2. Run:
    ```matlab
    CNN_large.m
+   ```
 3. Evaluates the performance of the pre-trained network without retraining
 
 <!-- ## Project Structure -->
