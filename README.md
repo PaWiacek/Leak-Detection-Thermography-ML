@@ -72,8 +72,8 @@ Fig. 6: *θ angle determination; top view.*
   - sample (tube) angle φ
   - camera height z
 - controlled factors evaluated for their impact on accuracy:
-  - surface emmisivity (ϵ 0.17 and ϵ 0.31)
-  - background type (laboratory/screen)
+  - surface emmisivity (ϵ 0.17 vs ϵ 0.31)
+  - background type (laboratory vs screen)
 - Training image data augmentation: from original 360 samples to 412 in total
 - The full dataset is not included in the repository. Further information is available in the README file in the dataset_samples directory.
 
@@ -96,5 +96,23 @@ Fig. 9: *Mismatched images by sample type*
 
 <!-- ## Future Work -->
 ## Usage
+### HPC (Slurm, Bayesian Optimization)
+Experiments can be run on an HPC cluster using Slurm scripts provided in the hpc/ directory.
 
+1. Submit the job:
+
+sbatch hpc/run_experiment_complex_bn_fc.sh
+The script:
+- launches run_main_optimization.m with predefined settings
+- performs Bayesian optimization of hyperparameters (e.g., filter size, number of filters, dropout)
+- calls the objective function (cnnObjectiveFcn) for training and evaluation
+- saves the model/results if improved performance is achieved
+
+<!-- The objective function (`cnnObjectiveFcn`) trains the network defined in `createCNN` and returns validation metrics used by the optimizer. -->
+
+### Local (MATLAB)
+1. Open MATLAB
+2. Run:
+   ```matlab
+   main.m
 <!-- ## Project Structure -->
