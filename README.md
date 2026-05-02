@@ -11,7 +11,6 @@ Although several gas leak detection technologies are already available, includin
 This work develops a methodology for detecting gas leaks from thermal images using artificial neural networks. It identifies a suitable network architecture and evaluates the impact of thermal noise on classification performance.
 
 ## Methodology
-
 <img width="320" height="236" alt="pneumatic-scheme-26" src="https://github.com/user-attachments/assets/a46ca354-5a07-405c-b88e-aabce69f7bc3" />
 
 Fig. 1: *Simplified experimental scheme. The area enclosed by the dashed frame indicates the camera’s ROI (region of interest).*
@@ -46,9 +45,23 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 | Lens focal length          | 24.6 mm                       |
 
 ## Dataset
-number of samples (e.g., ?? images, 2 classes)
-variability (angle, background, height)
-image data augmentation
+To gather a diverse dataset for the CNN, thermograms were acquired for different camera heights z, sample orientations φ and camera viewing angles θ, ensuring that individual images differed in their geometric configuration and reducing the risk of data leakage during subsequent machine learning (ML) stage.
+
+- Number of samples: 360 unique images split across 3 subsets: train (216 images), test (72 images), validation(72 images), and further into 2 classes (leak/no leak)
+
+train/ (216 images total)
+|-- leak/
+`-- noleak/
+val/ (72 images total)
+|-- leak/
+`-- noleak/
+test/ (72 images total)
+|-- leak/
+`-- noleak/
+
+- variability (angle, background, height)
+- Training image data augmentation: from original 360 samples to 412 in total
+
 
 the full dataset is not in the repository
 ## Results
