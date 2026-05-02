@@ -65,7 +65,7 @@ Fig. 6: *θ angle determination; top view.*
   - validation(72 images)
 - variable parameters (angle, background, height)
 - Training image data augmentation: from original 360 samples to 412 in total
-- The full dataset is not included in the repository
+- The full dataset is not included in the repository. Further information is available in the README file in the dataset_samples directory.
 
 ## Results
 <!-- ## Limitations -->
