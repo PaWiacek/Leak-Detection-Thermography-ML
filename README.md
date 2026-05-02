@@ -20,8 +20,8 @@ Each pair consists of one tube with a reflective surface finish and one with a m
 
 | Sample   | Emmisivity value (averaged) | 
 |-------------|-------------|
-| Reflective  | 0.31  |
 | Matte       | 0.17  |
+| Reflective  | 0.31  |
 
 <img width="320" height="240" alt="pipe-surface-macro-rot" src="https://github.com/user-attachments/assets/757089a4-9ad3-498d-a06c-d78bc439939e" />
 
