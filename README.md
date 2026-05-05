@@ -54,21 +54,26 @@ The primary measurement device of the setup was a FLIR T630sc thermal camera, wi
 ## Neural network architecture
 <img width="711" height="200" alt="net_layers" src="https://github.com/user-attachments/assets/4c42c51f-6ffe-48c4-a023-41561583bc65" />
 
+Fig. 4: *Schematic representation of network layers.*
+
+The network takes RGB thermal images of size 640×480×3 as input. It consists of two convolutional blocks, each including a convolutional layer (with optimized filter size and number of filters, using same padding), batch normalization, a ReLU activation, and max pooling for spatial downsampling. The pooling size is fixed at 2, while the stride is optimized.
+
+A dropout layer follows, randomly deactivating a fraction of activations based on an optimized dropout rate. The final layers include a fully connected layer with two outputs, a softmax layer producing class probabilities, and a classification layer assigning the input to either the leak or no-leak class.
 
 ## Dataset
 To gather a diverse dataset for the CNN, thermograms were acquired for different camera heights z, sample orientations φ and camera viewing angles θ, ensuring that individual images differed in their geometric configuration and reducing the risk of data leakage during subsequent machine learning (ML) stage.
 
 <img width="320" height="227" alt="z_determin" src="https://github.com/user-attachments/assets/637b5295-ec59-476d-a277-a9761c75c6b6" />
 
-Fig. 4: *Tripod height z determination; side view.*
+Fig. 5: *Tripod height z determination; side view.*
 
 <img width="320" height="117" alt="phi_determin-crop-1" src="https://github.com/user-attachments/assets/1f2bcb8d-199a-408f-b6e6-6121acbcfdae" />
 
-Fig. 5: *φ angle (tube orientation) determination; front view.*
+Fig. 6: *φ angle (tube orientation) determination; front view.*
 
 <img width="320" height="227" alt="theta_determin" src="https://github.com/user-attachments/assets/5ead940d-6fa5-472d-830c-0c0a818fef5e" />
 
-Fig. 6: *θ angle determination; top view.*
+Fig. 7: *θ angle determination; top view.*
 
 - Number of samples: 360 unique images split across 3 subsets:
   - train (216 images)
@@ -88,15 +93,15 @@ Fig. 6: *θ angle determination; top view.*
 
 <img width="320" height="225" alt="acc-comp-largeNet" src="https://github.com/user-attachments/assets/38d99f57-b8be-43ae-83d9-9788ca9935f9" />
 
-Fig. 7: *Accuracy comparison for each subset*
+Fig. 8: *Accuracy comparison for each subset*
 
 <img width="320" height="258" alt="confMat-largeNet" src="https://github.com/user-attachments/assets/c372689c-7e81-4541-86e2-c4fbc2bc5165" />
 
-Fig. 8: *Confusion matrix*
+Fig. 9: *Confusion matrix*
 
 <img width="320" height="230" alt="mismatched_images" src="https://github.com/user-attachments/assets/e7d104cc-0a56-4870-b312-582f6ec974f8" />
 
-Fig. 9: *Mismatched images by sample type*
+Fig. 10: *Mismatched images by sample type*
 
 
 <!-- ## Limitations -->
