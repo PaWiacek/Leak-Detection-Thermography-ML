@@ -6,6 +6,8 @@
 ## Overview
 This project focuses on gas safety classification using thermal camera-derived data and convolutional neural networks (CNN). Leak and no-leak classes were distinguished based on experimental measurements, and the influence of reflective tube surface and thermal noise in the backround was assessed.
 
+本研究では背景の熱ノイズや反射するパイプ表面が分類器性能に与える影響について検討する。つまり、目的はガスの安全性向上やグリーンエネルギーへの貢献である。
+
 ## Key Results
 
 - Self-collected experimental dataset
