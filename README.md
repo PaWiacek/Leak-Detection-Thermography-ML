@@ -1,4 +1,5 @@
 # Analysis of Gas Leak Detection Using Thermography and Deep Learning
+# サーモグラフィとディープラーニングを用いたガス漏れ認識の分析
 
 <img width="320" height="240" alt="thermal_split" src="https://github.com/user-attachments/assets/4c5878ba-9985-4139-a92b-cd288ca99382" />
 
